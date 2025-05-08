@@ -1,0 +1,28 @@
+.form-container {
+    background: #e4e7e7 ;
+    padding: 10px;
+}
+
+form {
+    background: white;
+    padding: 20px;}
+
+.name {
+    display: flex;
+}
+
+.degree {
+    display: flex;
+}
+
+.college-dates {
+    display: flex;
+}
+
+label {
+    display: block;
+}
+
+.input-group {
+    display: block;
+}
