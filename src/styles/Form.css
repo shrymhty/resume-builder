@@ -26,3 +26,13 @@ label {
 .input-group {
     display: block;
 }
+
+.experience-div, .project-div, .certificate-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.remove-experience, .remove-project, .remove-cert {
+    padding: 10px 12px;
+    height: fit-content;
+}

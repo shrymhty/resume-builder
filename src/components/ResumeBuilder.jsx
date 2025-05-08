@@ -16,6 +16,10 @@ export const ResumeBuilder = () => {
         streamName: '',
         collegeStart: '',
         collegeEnd: '',
+        experiences: [],
+        projects: [],
+        certificates: [],
+        skills: []
     })
     return (
         <div className="resume-body">
