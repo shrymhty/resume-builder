@@ -6,10 +6,10 @@ import { ResumeBuilder } from './components/ResumeBuilder'
 
 const App = () => {
   return (
-    <>
+    <div className="app">
       <Header />  
-      <ResumeBuilder />    
-    </>
+      <ResumeBuilder />
+    </div>
   )
 }
 

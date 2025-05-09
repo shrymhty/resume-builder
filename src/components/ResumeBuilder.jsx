@@ -19,12 +19,17 @@ export const ResumeBuilder = () => {
         experiences: [],
         projects: [],
         certificates: [],
-        skills: []
+        skills: ''
     })
+
     return (
         <div className="resume-body">
-            <Form formData={formData} setFormData={setFormData} />
-            <Preview formData={formData} />
+            <div className="form-scrollable">
+                <Form formData={formData} setFormData={setFormData} />
+            </div>
+            <div className="preview-scrollable">
+                <Preview formData={formData} />
+            </div>
         </div>
     )
 }
