@@ -20,3 +20,23 @@
     display: flex;
     scrollbar-width: none;
 }
+
+@media (max-width: 768px) {
+  .resume-body {
+    flex-direction: column;
+    height: auto;
+    overflow: visible;
+  }
+
+  .form-scrollable,
+  .preview-scrollable {
+    width: 100%;
+    height: auto;
+    max-height: none;
+    overflow: visible;
+  }
+
+  body {
+    overflow-y: auto;
+  }
+}
